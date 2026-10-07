@@ -203,7 +203,9 @@ export default function Page() {
           </div>
           <div className="foot-bottom">
             <span>© {new Date().getFullYear()} The Power Box — Ensanche Isabelita, Santo Domingo Este.</span>
-            <span>Propuesta de demostración — no es el sitio oficial.</span>
+            <span className="demo-note" style={{ display: "block", marginTop: "0.6rem", fontSize: "0.78rem", opacity: 0.65 }}>
+              Página de muestra — propuesta de diseño web preparada por NexoDev.
+            </span>
           </div>
         </div>
       </footer>
